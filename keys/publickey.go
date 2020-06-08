@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"prencrypt/point"
-	"prencrypt/util"
+	"github.com/hongyuefan/prencrypt/point"
+	"github.com/hongyuefan/prencrypt/util"
 )
 
 type PublicKey struct {

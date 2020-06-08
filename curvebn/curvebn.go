@@ -5,8 +5,8 @@ import (
 	"errors"
 	"math/big"
 
-	"prencrypt/point"
-	"prencrypt/util"
+	"github.com/hongyuefan/prencrypt/point"
+	"github.com/hongyuefan/prencrypt/util"
 )
 
 var mask = []byte{0xff, 0x1, 0x3, 0x7, 0xf, 0x1f, 0x3f, 0x7f}

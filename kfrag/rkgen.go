@@ -4,10 +4,10 @@ import (
 	"errors"
 	"math/big"
 
-	"prencrypt/curvebn"
-	"prencrypt/keys"
-	"prencrypt/point"
-	"prencrypt/util"
+	"github.com/hongyuefan/prencrypt/curvebn"
+	"github.com/hongyuefan/prencrypt/keys"
+	"github.com/hongyuefan/prencrypt/point"
+	"github.com/hongyuefan/prencrypt/util"
 )
 
 func Rkgen(privAlice *keys.PrivateKey, bobPub *keys.PublicKey, N, t int) ([]*KFrag, error) {

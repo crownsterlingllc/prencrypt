@@ -7,7 +7,7 @@ import (
 	"errors"
 	"math/big"
 
-	"prencrypt/util"
+	"github.com/hongyuefan/prencrypt/util"
 )
 
 type Point struct {

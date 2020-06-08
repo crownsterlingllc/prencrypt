@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"prencrypt/curvebn"
-	"prencrypt/point"
-	"prencrypt/util"
+	"github.com/hongyuefan/prencrypt/curvebn"
+	"github.com/hongyuefan/prencrypt/point"
+	"github.com/hongyuefan/prencrypt/util"
 )
 
 type PrivateKey struct {

@@ -4,13 +4,13 @@ import (
 	"errors"
 	"math/big"
 
-	"prencrypt/capsule"
-	"prencrypt/cfrag"
-	"prencrypt/curvebn"
-	"prencrypt/keys"
-	"prencrypt/kfrag"
-	"prencrypt/point"
-	"prencrypt/util"
+	"github.com/hongyuefan/prencrypt/capsule"
+	"github.com/hongyuefan/prencrypt/cfrag"
+	"github.com/hongyuefan/prencrypt/curvebn"
+	"github.com/hongyuefan/prencrypt/keys"
+	"github.com/hongyuefan/prencrypt/kfrag"
+	"github.com/hongyuefan/prencrypt/point"
+	"github.com/hongyuefan/prencrypt/util"
 )
 
 func Encapsulate(alicePub *keys.PublicKey) ([]byte, *capsule.Capsule, error) {
