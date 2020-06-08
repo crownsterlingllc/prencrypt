@@ -5,10 +5,9 @@ import (
 	"fmt"
 	"testing"
 
-	"prencrypt/cfrag"
-	"prencrypt/keys"
-	"prencrypt/symcrypt"
-
+	"github.com/hongyuefan/prencrypt/cfrag"
+	"github.com/hongyuefan/prencrypt/keys"
+	"github.com/hongyuefan/prencrypt/symcrypt"
 	"github.com/stretchr/testify/assert"
 )
 
