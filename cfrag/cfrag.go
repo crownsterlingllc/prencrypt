@@ -49,7 +49,7 @@ func (c *CFrag) Marshal() []byte {
 
 func (c *CFrag) Unmarshal(data []byte) error {
 	bnLen, pLen := curvebn.NewCurveBN(nil).Len(), point.NewPoint().Len()
-	if len(data) < pLen*3+bnLen {
+	if len(data) == 0 {
 		return errors.New("cfrag data length error")
 	}
 	if err := c.Id.FromBytes(data[:bnLen]); err != nil {

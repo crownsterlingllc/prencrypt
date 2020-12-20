@@ -12,8 +12,8 @@ import (
 )
 
 var (
-	N = 7
-	T = 5
+	N = 3
+	T = 2
 )
 
 func oneceOp() error {
@@ -42,6 +42,7 @@ func oneceOp() error {
 	if err != nil {
 		return err
 	}
+
 
 	var cFrags []*cfrag.CFrag
 
